@@ -7,6 +7,7 @@ def main():
     res = requests.get("https://data.taipei/opendata/datalist/apiAccess?scope=resourceAquire&rid=95299946-7095-4020-a719-8b553d84fdc6")
     if res.status_code != 200:
         raise Exception("ERROR: API request unsucessful.")
+        
     data = res.json()
     info = data['result']['results']
     for i in info:
