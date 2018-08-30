@@ -21,7 +21,7 @@ def main():
             testfile.writerow(item["班期別"])
             testfile.writerow(str(item["_id"]))
     '''
-    #將亂碼存入另一excel
+    #將亂碼先存入另一excel
     with open('test1.csv', 'w') as csvfile:
     #解決中文亂碼
         csvfile.write(str(codecs.BOM_UTF8))
