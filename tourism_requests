@@ -1,0 +1,4 @@
+爬取該網頁的旅遊資訊
+https://www.tripresso.com/agency/GLORIA
+因為是動態網頁
+所以必須逆向分析資訊才能進行爬取
